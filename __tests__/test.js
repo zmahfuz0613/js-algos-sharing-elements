@@ -1,6 +1,6 @@
-let algos = require("../groupArrays.js")
+let algos = require("../sharingElements.js")
 
-test("groups the arrays into an array of arrays of given length, any remainding go in last array", () => {
+test("shares the array elements with new arrays consisting of a maximum of num", () => {
   expect(algos.groupArrays(["a", "b", "c", "d"], 4)).toMatchObject([
     ["a", "b", "c", "d"]
   ])

@@ -1,8 +1,8 @@
 {
-  "name": "groupArrays",
+  "name": "sharingElements",
   "version": "1.0.0",
   "description": "",
-  "main": "groupArrays.js",
+  "main": "sharingElements.js",
   "scripts": {
     "test": "jest"
   },
